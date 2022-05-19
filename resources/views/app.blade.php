@@ -13,7 +13,7 @@
 
 <main>
 <div class="jumbo">
-<img class="jumbotron" src="{{url('/images/jumbotron.jpg')}}" alt="Image"/>
+<img class="jumbotron" src="images/jumbotron.jpg" alt="Image"/>
 
 </div>
 

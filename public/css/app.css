@@ -35,6 +35,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+.jumbo {
+  height: 50vh;
+}
+
 .jumbotron {
   width: -webkit-fill-available;
   height: 50vh;
