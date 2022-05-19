@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+    ul {
+        display: flex;
+        font-size: medium;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 20px;
+        align-items: center;
+        li {
+            list-style-type: none;
+            padding: 20px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}

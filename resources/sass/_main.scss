@@ -1,0 +1,28 @@
+.jumbotron {
+    width: -webkit-fill-available;
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.info-section {
+    background-color: #0c7cec;
+    .img-container {
+        padding: 40px;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        p {
+            color: #fff;
+            text-transform: uppercase;
+            align-self: center;
+        }
+    }
+}

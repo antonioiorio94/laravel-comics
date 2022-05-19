@@ -1,0 +1,67 @@
+.banner {
+    background-color: #0c7cec;
+    padding: 2rem;
+
+    .banner-conteiner {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+
+        .banner-card {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 3rem;
+                padding: 5px;
+                margin-right: 10px;
+            }
+
+            p {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.link-section {
+    background-image: url(/images/footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+
+    .link-container {
+        margin: 0 auto;
+        display: flex;
+        padding: 2rem;
+        width: 48%;
+
+        ul {
+            list-style-type: none;
+            color: #fff;
+            text-align: initial;
+            margin-right: 3rem;
+            margin-bottom: 1rem;
+            h3 {
+                margin-bottom: 1rem;
+            }
+            li {
+                color: rgb(122, 122, 122);
+                padding: 2px;
+            }
+        }
+    }
+}
+
+.sign-up-section {
+    background-color: #000;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    .sign-up-button {
+        background: none;
+        color: #fff;
+        border: 2px solid #0c7cec;
+        padding: 10px;
+    }
+}
