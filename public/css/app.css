@@ -138,3 +138,31 @@ nav ul li a {
   padding: 10px;
 }
 
+.container {
+  background-color: rgb(29, 29, 29);
+}
+
+.container .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container .card-container .card {
+  padding: 20px;
+  text-align: center;
+  width: 16.6666666667%;
+}
+
+.container .card-container a {
+  text-decoration: none;
+}
+
+.container .card-container p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
