@@ -5,6 +5,7 @@ DC Comics - Comics
 @endsection
 
 @section('content')
-<h1>Comics</h1>
-<p>Nuovo</p>
+<div>
+  @dump($comics)
+</div>
 @endsection
